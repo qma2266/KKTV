@@ -8,15 +8,15 @@
 ### Develop
 | 測試類型 | Integration Test     | Compatibility Test      |
 | ---------- | :-----------:  | :-----------: |
-| 執行測試人員     |SQA     | SQA     |
+| 執行測試人員     |RD     | SQA     |
 
 ### Release 
-| 測試類型 | Stress Testing   | Acceptance Tests     |
+| 測試類型 | System Tests   | Acceptance Tests     |
 | ---------- | :-----------:  | :-----------: |
 | 執行測試人員     |SQA     | SQA     |
 
 ### Hotfix   分支
-| 測試類型 | Unit Tests     | Integration Test     | Stress Tests     |Acceptance Tests|
+| 測試類型 | Unit Tests     | Integration Test     | System Tests     |Acceptance Tests|
 | ---------- | :-----------:  | :-----------: |:-----------: |:-----------: |
 | 執行測試人員     |RD     | RD     |SQA    |SQA    
 
