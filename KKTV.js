@@ -51,7 +51,7 @@ const testscroll = ClientFunction(dis => {
   });
 });
 
-const username = 'open860321@gmail.com'
+const username = ''
 const password = ''
 
 fixture `KKBOX TV Test`
