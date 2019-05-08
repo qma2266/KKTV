@@ -6,9 +6,9 @@
 | 執行測試人員     |RD     | SQA     |
 
 ### Develop
-| 測試類型 | Integration Test     | Compatibility Test      |
-| ---------- | :-----------:  | :-----------: |
-| 執行測試人員     |RD     | SQA     |
+| 測試類型 | Integration Test     | Compatibility Test      |Regression Testing    |
+| ---------- | :-----------:  | :-----------: |:-----------: |
+| 執行測試人員     |RD     | SQA     |SQA   |
 
 ### Release 
 | 測試類型 | System Tests   | Acceptance Tests     |
