@@ -51,6 +51,8 @@ const testscroll = ClientFunction(dis => {
   });
 });
 
+const username = ''
+const password = ''
 
 fixture `KKBOX TV Test`
   .page `https://www.kktv.me/`
@@ -58,8 +60,8 @@ fixture `KKBOX TV Test`
      await t
        .click(loginBtn)
        .click(kkboxLogin)
-       .typeText(loginAccount, 'open860321@gmail.com')
-       .typeText(loginPassword, 'gba3pda2')
+       .typeText(loginAccount, username)
+       .typeText(loginPassword, password)
        .click(loginConfirm);
   })
   .afterEach(async t => {
@@ -77,8 +79,6 @@ test('check_username', async t => {
     .click(searchToHomepage);
 
 });
-
-
 
 test('collect_video', async t => {
  await testscroll();
