@@ -4,7 +4,8 @@
   "description": "",
   "main": "KKTV.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "KKTV": " ./node_modules/.bin/testcafe chrome KKTV.js --skip-js-errors"
    },
   "author": "",
   "license": "ISC",

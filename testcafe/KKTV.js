@@ -51,8 +51,8 @@ const testscroll = ClientFunction(dis => {
   });
 });
 
-const username = ''
-const password = ''
+const username = 'open860321@gmail.com'
+const password = 'gba3pda2'
 
 fixture `KKBOX TV Test`
   .page `https://www.kktv.me/`
@@ -70,7 +70,7 @@ fixture `KKBOX TV Test`
       .hover(dropdownMenu)
       .click(logout);
   })
-test('check_username', async t => {
+test.only('check_username', async t => {
   await t 
     .hover(dropdownMenu)
     .click(accounInformation)
